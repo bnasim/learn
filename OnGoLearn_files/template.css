@@ -1,0 +1,147 @@
+﻿
+/* BODY
+-------------------------------------------------- */
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* JUMBOTRON CONTENT
+-------------------------------------------------- */
+
+.jumbotron-image {
+  margin-top: 11px; /* It's ridiculous. It's not even funny */
+}
+
+.jumbotron-header {
+  font-weight: normal;
+}
+.navbar-custom {
+    background-color:#666699;
+    color:#ffffff;
+    border-radius:0;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+/* APPS CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+#apps .col-md-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#apps h2 {
+  font-weight: normal;
+}
+#apps .col-md-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+  border: 1px dotted blue;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-image {
+  width: 300px;
+}
+
+/* ABOUT CONTENT
+-------------------------------------------------- */
+#about .col-md-12 {
+  text-align: center;
+  margin-top:-20px;
+}
+
+#about .col-md-12 p {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+#about h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+
+/* TEAM CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+#team .col-md-12 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#team h2 {
+  font-weight: normal;
+}
+
+#team .about-row {
+  margin-bottom: 25px;
+}
+
+#team .col-md-6 p.about-founders{
+  margin-top:20px;
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+}
+
+/* FOOTER
+-------------------------------------------------- */
+
+.footer-divider {
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+#footer .col-md-12 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* For the mission statement on small devices */
+@media (max-width: 768px) {
+  #about .col-md-12 p {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+/* For team images on small devices */
+@media (max-width: 991px) {
+  .about-row > div > a > img {
+    margin: 0 auto;
+    display: block;
+  }
+}
